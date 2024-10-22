@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+📓 Bloc-Notes - Application de Prise de Notes en Markdown
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue dans Bloc-Notes, une application web de prise de notes moderne où vous pouvez écrire en Markdown et visualiser votre contenu en HTML en temps réel. Les notes sont stockées dans le localStorage, ce qui permet de conserver vos notes même en mode hors-ligne.
 
-## Available Scripts
+🖥️ Aperçu
+L'application offre une interface simple et épurée pour prendre des notes, les organiser et les visualiser. Les principales fonctionnalités incluent :
 
-In the project directory, you can run:
+📄 Prise de notes en Markdown avec aperçu en HTML en temps réel.
+🔄 Sauvegarde locale des notes grâce au localStorage.
+➕ Ajout, modification et suppression de notes.
+📝 Interface fluide avec un design moderne.
+🖥️ Responsivité : compatible avec les appareils mobiles et bureau.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🚀 Fonctionnalités
+Markdown en direct : Écrivez en Markdown dans un éditeur simple et visualisez le rendu en HTML au-dessus.
+Sauvegarde des notes : Les notes sont automatiquement stockées dans le localStorage, ce qui permet de les retrouver après une déconnexion.
+Interface réactive : L'application s'adapte à toutes les tailles d'écran.
+Gestion des notes : Ajoutez, modifiez, ou supprimez des notes via une interface claire et facile à utiliser.
+Pop-up de confirmation : Un message pop-up s'affiche lors de la sauvegarde réussie d'une note.
+🛠️ Technologies Utilisées
+React : Librairie JavaScript pour construire l'interface utilisateur.
+Sass (SCSS) : Préprocesseur CSS pour une gestion avancée des styles.
+Showdown : Librairie pour convertir le Markdown en HTML.
+localStorage : API Web pour stocker les notes localement sur l'ordinateur de l'utilisateur.
+📦 Installation
+Pré-requis
+Node.js v14+ ou supérieur
+npm ou yarn
